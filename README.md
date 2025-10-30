@@ -6,7 +6,9 @@ A Flutter movie application that displays popular movies from TMDB API with offl
 
 | Light Mode | Dark Mode | Movie Details |
 |------------|-----------|---------------|
-| ![Light Mode](screenshots/light_mode.png) | ![Dark Mode](screenshots/dark_mode.png) | ![Movie Details](screenshots/movie_details.png) |
+| <img width="700" height="2000" alt="Screenshot_1761825241" src="https://github.com/user-attachments/assets/3b4d466e-30ce-4738-a027-87262f85cd37" />
+ |<img width="700" height="200" alt="Screenshot_1761825247" src="https://github.com/user-attachments/assets/0d00943d-c0a6-49b5-acef-93c018e1016f" />
+ |  <img width="700" height="2000" alt="Screenshot_1761825252" src="https://github.com/user-attachments/assets/56eb922e-02c0-426d-ad9d-e2b250b8016c" />|
 
 ## ✨ Features
 
