@@ -129,55 +129,6 @@ final updatedMovies = [
 // Result: [M1, M2, M3, M4, M5, M6]
 ```
 
-## 🛠️ Technologies Used
-
-### Core Dependencies
-- **flutter_bloc** (^9.1.1) - State management with Cubit
-- **dio** (^5.9.0) - HTTP client for API calls
-- **hive_flutter** (^1.1.0) - Local database for caching
-- **get_it** (^8.0.3) - Dependency injection
-- **dartz** (^0.10.1) - Functional error handling
-- **cached_network_image** (^3.4.1) - Image loading and caching
-
-### Dev Dependencies
-- **build_runner** (^2.4.13) - Code generation
-- **hive_generator** (^2.0.1) - Generate Hive adapters
-
-## 🔧 Setup Instructions
-
-### Prerequisites
-- Flutter SDK ^3.8.1
-- TMDB API Key ([Get it here](https://www.themoviedb.org/settings/api))
-
-### Installation Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd movie_task
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Generate Hive adapters**
-   ```bash
-   flutter pub run build_runner build --delete-conflicting-outputs
-   ```
-
-4. **Add your TMDB API key**
-   - Open `lib/core/constants/api_constants.dart`
-   - Replace with your Bearer token:
-   ```dart
-   static const String bearerToken = 'YOUR_BEARER_TOKEN_HERE';
-   ```
-
-5. **Run the app**
-   ```bash
-   flutter run
-   ```
 
 ## 📦 Key Components
 
@@ -230,17 +181,5 @@ ThemeCubit()
 - ✅ Smart fallback mechanism
 - ✅ No data loss on errors
 
-## 📚 Learning Resources
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [TMDB API Documentation](https://developers.themoviedb.org/3)
-
-## 📝 License
-
-This project is a learning exercise and is not intended for production use.
-
----
 
 **Built with ❤️ using Flutter**
